@@ -1,0 +1,46 @@
+# //  Questa Sim
+# //  Version 10.0b win32 May  5 2011
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim object_automation_usage 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.eth_sv_unit
+# Loading work.object_automation_usage(fast)
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+#  
+run -all
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# -------------------------------------
+# Name        Type          Size  Value
+# -------------------------------------
+# pktA        eth_pkt       -     @455 
+#   preamble  integral      48    'd763
+#   dstaddr   integral      48    'd742
+#   srcaddr   integral      48    'd229
+#   len       integral      10    700  
+#   payload   da(integral)  700   -    
+#     [0]     integral      8     -58  
+#     [1]     integral      8     'd51 
+#     [2]     integral      8     'd19 
+#     [3]     integral      8     'd52 
+#     [4]     integral      8     'd2  
+#     ...     ...           ...   ...  
+#     [695]   integral      8     'd39 
+#     [696]   integral      8     'd127
+#     [697]   integral      8     -103 
+#     [698]   integral      8     'd36 
+#     [699]   integral      8     -55  
+# -------------------------------------
